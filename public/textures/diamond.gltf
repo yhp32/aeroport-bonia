@@ -1,0 +1,130 @@
+{
+  "accessors": [
+    {
+      "name": "Hedra002_1_0_positions",
+      "componentType": 5126,
+      "count": 12,
+      "min": [-5.846199989318848, -15.772100448608398, -5.846199989318848],
+      "max": [5.846199989318848, 15.772100448608398, 5.846199989318848],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "Hedra002_1_0_normals",
+      "componentType": 5126,
+      "count": 12,
+      "min": [-0.7071067690849304, -1, -0.7071067690849304],
+      "max": [0.7071067690849304, 1, 0.7071067690849304],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "Hedra002_1_0_texcoords",
+      "componentType": 5126,
+      "count": 12,
+      "min": [-0.5, 0.5],
+      "max": [0.5, 1.5],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "name": "Hedra002_1_0_indices",
+      "componentType": 5123,
+      "count": 24,
+      "min": [0],
+      "max": [11],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 0
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "diamond 0",
+      "byteLength": 432,
+      "uri": "data:application/octet-stream;base64,AAAAAIZafEEAAACAEhS7QAAAAIASFLtAEhS7QAAAAIASFLvAEhS7QAAAAIASFLvAAAAAgIZafMEAAAAAEhS7wAAAAAASFLvAEhS7wAAAAAASFLvAEhS7wAAAAAASFLtAEhS7wAAAAAASFLtAEhS7QAAAAIASFLtAAAAAAIZafEEAAACAAAAAgIZafMEAAAAAAAAAgAAAgD8AAACA8wQ1PwAAAIDzBDU/8wQ1PwAAAIDzBDW/8wQ1PwAAAIDzBDW/AAAAgAAAgL8AAAAA8wQ1vwAAAADzBDW/8wQ1vwAAAADzBDW/8wQ1vwAAAADzBDU/8wQ1vwAAAADzBDU/8wQ1PwAAAIDzBDU/AAAAgAAAgD8AAACAAAAAgAAAgL8AAAAAAAAAAAAAAD8AAAC/AACAPwAAAD8AAIA/AAAAgAAAAD8AAAC/AACAPwAAAAAAAMA/AAAAPwAAgD8AAAC/AACAPwAAAAAAAMA/AAAAgAAAAD8AAAA/AACAPwAAAIAAAMA/AAABAAIAAwAEAAUABgAHAAAACAAEAAkAAwAFAAoACAAJAAoAAQALAAIABwAGAAsA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 144,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 288,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_3",
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 384,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "wire_008110135",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0314, 0.4314, 0.5294, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.968
+      },
+      "emissiveFactor": [0, 0, 0],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Hedra002_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Hedra002",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ]
+}
