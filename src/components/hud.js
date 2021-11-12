@@ -35,31 +35,7 @@ const HUD = () => {
           
         </Flex>
 
-        <Flex sx={{ alignItems: 'center', flex: 1, justifyContent: 'flex-end' }}>
-          <Image
-            src="/images/bonia_b.png"
-            mr={16}
-            sx={{ height: [20, 32] }}
-            onPointerUp={() => {
-              if (state.total() === 4) {
-                three.congratulation = true
-                three.playPing(easterComplete)
-              }
-            }}
-          />
-          <Text
-            variant="hud"
-            color="white"
-            onPointerUp={() => {
-              if (state.total() === 4) {
-                three.congratulation = true
-                three.playPing(easterComplete)
-              }
-            }}
-          >
-            {`${state.total()} / 4`}
-          </Text>
-        </Flex>
+       
       </Flex>
 
       {menu && <Settings />}
