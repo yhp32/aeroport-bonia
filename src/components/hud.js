@@ -22,7 +22,23 @@ const HUD = () => {
           zIndex: 1
         }}
       >
-        
+        <Flex sx={{ alignItems: 'center' }}>
+          <MenuButton
+            color="white"
+            onPointerUp={() => {
+              settings.menu = true
+            }}
+            sx={{
+              pointerEvents: 'auto'
+            }}
+          />
+          <Image
+            src={`/images/${sound ? 'audio_on' : 'audio_off'}.svg`}
+            ml={12}
+            sx={{ height: [20, 30], pointerEvents: 'auto' }}
+            onPointerUp={() => (settings.sound = !settings.sound)}
+          />
+        </Flex>
 
         <Flex sx={{ alignItems: 'center', flex: 1, justifyContent: 'flex-end' }}>
           <Image
