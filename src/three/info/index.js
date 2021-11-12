@@ -13,7 +13,6 @@ import FullCampaignVideo from '../scenes/Scene1/full_campaign'
 import KOLVideo from '../scenes/Scene1/kol'
 import ShareInfo from '../scenes/Scene1/share'
 import Tutorial from '../../components/tutorial'
-import HUD from '../../components/hud'
 import Congratulation from '../../components/congratulation'
 import Snackbar from '../../components/Snackbar'
 
