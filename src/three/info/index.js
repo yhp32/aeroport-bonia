@@ -21,7 +21,6 @@ const ThreeInfo = () => {
   const { tutorial } = useProxy(settings)
   const {
     showSnackbar,
-    showArmeria,
     showIxora,
     showGianna,
     showDepart,
@@ -44,12 +43,6 @@ const ThreeInfo = () => {
   return (
     <>
       {showSnackbar && <Snackbar />}
-
-      {showArmeria && (
-        <Suspense fallback={null}>
-          <ArmeriaBagInfo />
-        </Suspense>
-      )}
 
       {showIxora && (
         <Suspense fallback={null}>
