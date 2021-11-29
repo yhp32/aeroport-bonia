@@ -110,49 +110,7 @@ const WelcomeInfo = () => {
               </Text>
             </Flex>
 
-            <Flex
-              sx={{
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                pl: [null, null, null, 4, 5, 6],
-                pr: [null, null, null, 4, 5, 6]
-              }}
-            >
-              <Box p={[12, null, null, 3, 4, 5]} />
-              <Text
-                variant="h1Italic"
-                sx={{
-                  width: [180, 'auto'],
-                  fontSize: ['12px', null, '14px', '16px', '18px', '20px']
-                }}
-                color="white"
-              >
-                <I18n t="welcome.titleSecondSlide" />
-              </Text>
-              <Box p={[12, null, null, 2, 3]} />
-              <Text
-                sx={{
-                  maxWidth: ['auto', 310],
-                  mx: [24, 0],
-                  fontSize: ['12px', null, '14px', '12px', '14px', '16px']
-                }}
-                color="white"
-              >
-                <I18n t="welcome.contentSecondSlide" />
-              </Text>
-              <br />
-              <Text
-                sx={{
-                  maxWidth: ['auto', 310],
-                  mx: [24, 0],
-                  fontSize: ['12px', null, '14px', '12px', '14px', '16px']
-                }}
-                color="white"
-              >
-                <I18n t="welcome.contentSecondSlide2" />
-              </Text>
-            </Flex>
+           
           </Carousel>
 
           <Close
