@@ -31,14 +31,6 @@ const Settings = () => {
       </Text>
       <Box p={5} />
 
-      <Button
-        sx={{ width: '100%' }}
-        bg={'socialButton'}
-        onPointerUp={() => (settings.tutorial = 1)}
-      >
-        <I18n t="settings.view" />
-      </Button>
-
       <Box p={2} />
 
       <a href="https://www.bonia.com/" target="_blank" rel="noreferrer" style={{ width: '100%' }}>
