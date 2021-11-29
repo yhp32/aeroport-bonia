@@ -3,7 +3,7 @@ const English = {
   loading: 'loading',
   tutorial: {
     content:
-      'The following tutorial will help you navigate this immersive space, with many hidden games, discounts, gifts and giveaways.',
+      '',
     icons: 'Tap on the Bonia "B" Logos to win a prize!',
     interact: 'interact',
     navigate: 'navigate',
