@@ -28,12 +28,8 @@ const English = {
     content:
       'Welcome again to B-Aeroport, an interactive digital pop-up in celebration of BONIA’s 47th Anniversary.',
     content2:
-      'Throughout this space, you will explore and discover our latest Autumn/Winter 2021 collection… plus stand a chance to win a range of exciting prizes!',
-    titleSecondSlide: 'First up, a treasure hunt!',
-    contentSecondSlide:
-      'While you’re wandering about, stay on the lookout for four (4) hidden BONIA logos. Click each one to collect them all and earn a reward.',
-    contentSecondSlide2:
-      'We hope you will enjoy exploring B-Aeroport as you wait to board the plane for your next adventure.'
+      'Throughout this space, you will explore and discover our latest Autumn/Winter 2021 collection.'
+ 
   },
   takeABite: {
     title: 'Take a bite out of something new!',
