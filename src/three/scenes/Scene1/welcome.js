@@ -193,48 +193,7 @@ const WelcomeInfo = () => {
               <Box p={[12, 5, 6, null]} />
             </Flex>
 
-            <Flex
-              sx={{
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                pl: [4, 5, 6, null],
-                pr: [4, 5, 6, null]
-              }}
-            >
-              <Box p={[3, 4, 5, null]} />
-              <Text
-                variant="h1Italic"
-                sx={{ width: [180, 'auto'], fontSize: ['14px', '16px', '20px', null] }}
-                color="white"
-              >
-                <I18n t="welcome.titleSecondSlide" />
-              </Text>
-              <Box p={[12, null, null, 2, 3]} />
-              <Text
-                sx={{
-                  maxWidth: ['auto', 388],
-                  mx: [24, 0],
-                  fontSize: ['12px', '14px', '16px', null]
-                }}
-                color="white"
-              >
-                <I18n t="welcome.contentSecondSlide" />
-              </Text>
-              <br />
-              <Text
-                sx={{
-                  maxWidth: ['auto', 388],
-                  mx: [24, 0],
-                  fontSize: ['12px', '14px', '16px', null]
-                }}
-                color="white"
-              >
-                <I18n t="welcome.contentSecondSlide2" />
-              </Text>
-              <Box p={[12, 5, 6, null]} />
-            </Flex>
+            
 
             <Box sx={{ lineHeight: 0 }}>
               <SuspenseImage src="/images/greetings_wanderers.png" draggable={false} />
