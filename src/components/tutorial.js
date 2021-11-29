@@ -17,6 +17,21 @@ const tutorials = [
     heading: 'tutorial.virtualworld',
     logo: '/images/bonia.png',
     gif: '/images/aeroport_transparent.gif'
+  },
+  {
+    title: 'tutorial.navigate',
+    subtitle: 'tutorial.swipe',
+    image: '/images/tutorial_1.mp4'
+  },
+  {
+    title: 'tutorial.interact',
+    subtitle: 'tutorial.object',
+    image: '/images/tutorial_2.mp4'
+  },
+  {
+    title: 'tutorial.find',
+    subtitle: 'tutorial.icons',
+    image: '/images/tutorial_3.mp4'
   }
 ]
 
