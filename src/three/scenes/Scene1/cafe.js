@@ -154,50 +154,7 @@ const CafeInfo = () => {
             </Text>
             <Box p={[12, null, null, 2, 3]} />
 
-            <Box as="form" sx={{ maxWidth: [300, null, 350, null, 400] }} onSubmit={submitForm}>
-              <Flex>
-                <Input
-                  name="first_name"
-                  value={firstName}
-                  onChange={(e) => {
-                    setFirstName(e.target.value)
-                  }}
-                  placeholder={I18n.getTranslation(location, 'firstName')}
-                  sx={{ flex: 1, fontSize: ['12px', null, '14px', '16px', '18px', '20px'] }}
-                />
-
-                <Box p={1} />
-
-                <Input
-                  name="last_name"
-                  value={lastName}
-                  onChange={(e) => {
-                    setLastName(e.target.value)
-                  }}
-                  placeholder={I18n.getTranslation(location, 'lastName')}
-                  sx={{ flex: 1, fontSize: ['12px', null, '14px', '16px', '18px', '20px'] }}
-                />
-              </Flex>
-
-              <Box p={2} />
-
-              <Input
-                name="email"
-                type="email"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value)
-                }}
-                placeholder={I18n.getTranslation(location, 'takeABite.preorder')}
-                sx={{ width: '100%', fontSize: ['12px', null, '14px', '16px', '18px', '20px'] }}
-              />
-
-              <Box p={[12, null, null, 2, 3]} />
-
-              <Button variant="form" sx={{ width: [250, 300] }}>
-                <I18n t="submit" />
-              </Button>
-            </Box>
+           
 
             <Box p={[12, null, null, 2, 3]} />
 
