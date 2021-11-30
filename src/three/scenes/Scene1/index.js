@@ -116,22 +116,7 @@ const Bonia2 = () => {
           {...opacityAnim}
         />
       </a.mesh>
-      <mesh
-        position={[10.3, -6.3, 24.5]}
-        rotation={[0, 0 * (Math.PI / 180), 0]}
-        onPointerUp={async () => {
-          toggle(!animate)
-          easter.state.easter2 = true
-
-          if (easter.total() === 4) {
-            await three.playPing(easterComplete)
-            three.congratulation = true
-          } else {
-            await three.playPing(easterFind)
-          }
-          localStorage.setItem('easter', JSON.stringify({ ...easter.state }))
-        }}
-      >
+      
         <circleBufferGeometry attach="geometry" args={[1, 32]} />
         <meshBasicMaterial
           attach="material"
@@ -185,22 +170,7 @@ const Bonia3 = () => {
           {...opacityAnim}
         />
       </a.mesh>
-      <mesh
-        position={[-14.1, 14.2, 22.5]}
-        rotation={[0, -20 * (Math.PI / 180), 0]}
-        onPointerUp={async () => {
-          toggle(!animate)
-          easter.state.easter3 = true
-
-          if (easter.total() === 4) {
-            await three.playPing(easterComplete)
-            three.congratulation = true
-          } else {
-            await three.playPing(easterFind)
-          }
-          localStorage.setItem('easter', JSON.stringify({ ...easter.state }))
-        }}
-      >
+      
         <circleBufferGeometry attach="geometry" args={[1, 32]} />
         <meshBasicMaterial
           attach="material"
@@ -250,22 +220,7 @@ const Bonia4 = () => {
           {...opacityAnim}
         />
       </a.mesh>
-      <mesh
-        position={[-13.5, 8.3, 8.5]}
-        rotation={[0, -70 * (Math.PI / 180), 0]}
-        onPointerUp={async () => {
-          toggle(!animate)
-          easter.state.easter4 = true
-
-          if (easter.total() === 4) {
-            await three.playPing(easterComplete)
-            three.congratulation = true
-          } else {
-            await three.playPing(easterFind)
-          }
-          localStorage.setItem('easter', JSON.stringify({ ...easter.state }))
-        }}
-      >
+      
         <circleBufferGeometry attach="geometry" args={[1, 32]} />
         <meshBasicMaterial
           attach="material"
