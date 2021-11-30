@@ -92,11 +92,6 @@ const ThreeInfo = () => {
         </Suspense>
       )}
 
-      {congratulation && (
-        <Suspense fallback={null}>
-          <Congratulation count={count} />
-        </Suspense>
-      )}
 
       {tutorial > 3 && <HUD />}
 
