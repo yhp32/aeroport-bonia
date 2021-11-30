@@ -66,23 +66,7 @@ const Bonia1 = () => {
           {...opacityAnim}
         />
       </a.mesh>
-      <mesh
-        position={[5.3, -3.8, -28.5]}
-        rotation={[0, -20 * (Math.PI / 180), 0]}
-        onPointerUp={async () => {
-          toggle(!animate)
-          easter.state.easter1 = true
-
-          if (easter.total() === 4) {
-            await three.playPing(easterComplete)
-            three.congratulation = true
-          } else {
-            await three.playPing(easterFind)
-          }
-
-          localStorage.setItem('easter', JSON.stringify({ ...easter.state }))
-        }}
-      >
+      
         <circleBufferGeometry attach="geometry" args={[1, 32]} />
         <meshBasicMaterial
           attach="material"
