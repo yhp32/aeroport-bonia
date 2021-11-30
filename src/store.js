@@ -90,21 +90,3 @@ export const three = proxy({
 
 export const settings = proxy({ tutorial: 0, menu: false, sound: true })
 
-const initialEaster = {
-  easter1: false,
-  easter2: false,
-  easter3: false,
-  easter4: false
-}
-const easterStorage = localStorage.getItem('easter')
-export const easter = proxy({
-  state: JSON.parse(easterStorage) ?? { ...initialEaster },
-  total() {
-    return this.state.easter1 + this.state.easter2 + this.state.easter3 + this.state.easter4
-  },
-  reset: () => {
-    easter.state = {
-      ...initialEaster
-    }
-  }
-})
