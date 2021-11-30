@@ -3,7 +3,7 @@ import React, { Suspense } from 'react'
 import { useTexture } from '@react-three/drei'
 import { useSpring, animated as a } from 'react-spring/three'
 
-import { three, settings, easter, prism, easterComplete, easterFind } from '../../../store'
+import { three, settings, prism} from '../../../store'
 import Diamond from '../../../components/Diamond'
 import TeleV from '../../../components/TeleV'
 import HotSpot from '../../../components/HotSpot'
