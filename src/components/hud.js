@@ -2,7 +2,7 @@ import React from 'react'
 import { Flex, Image, MenuButton, Text } from 'theme-ui'
 import { useProxy } from 'valtio'
 
-import { three, settings, easter, easterComplete } from '../store'
+import { three, settings } from '../store'
 import Settings from '../components/settings'
 
 const HUD = () => {
