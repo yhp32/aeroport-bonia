@@ -77,7 +77,7 @@ const English = {
   greeting: {
     greet: {
       title: 'Share',
-      desc: 'It’s time for take-off! Share B-Aeroport with your friends, so they can also experience this space and enjoy the exclusive discounts and prizes.'
+      desc: 'It’s time for take-off! Share B-Aeroport with your friends, so they can also experience this space.'
     }
   },
   name: 'Name',
