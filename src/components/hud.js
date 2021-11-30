@@ -7,7 +7,7 @@ import Settings from '../components/settings'
 
 const HUD = () => {
   const { menu, sound } = useProxy(settings)
-  const state = useProxy(easter)
+
 
   return (
     <>
