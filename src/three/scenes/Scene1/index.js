@@ -67,15 +67,6 @@ const Bonia1 = () => {
         />
       </a.mesh>
       
-        <circleBufferGeometry attach="geometry" args={[1, 32]} />
-        <meshBasicMaterial
-          attach="material"
-          color="white"
-          transparent={true}
-          opacity={0}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
     </>
   )
 }
@@ -117,15 +108,6 @@ const Bonia2 = () => {
         />
       </a.mesh>
       
-        <circleBufferGeometry attach="geometry" args={[1, 32]} />
-        <meshBasicMaterial
-          attach="material"
-          color="white"
-          transparent={true}
-          opacity={0}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
     </>
   )
 }
@@ -170,16 +152,7 @@ const Bonia3 = () => {
           {...opacityAnim}
         />
       </a.mesh>
-      
-        <circleBufferGeometry attach="geometry" args={[1, 32]} />
-        <meshBasicMaterial
-          attach="material"
-          color="white"
-          transparent={true}
-          opacity={0}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
+     
     </>
   )
 }
@@ -221,15 +194,6 @@ const Bonia4 = () => {
         />
       </a.mesh>
       
-        <circleBufferGeometry attach="geometry" args={[1, 32]} />
-        <meshBasicMaterial
-          attach="material"
-          color="white"
-          transparent={true}
-          opacity={0}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
     </>
   )
 }
