@@ -154,20 +154,19 @@ const CafeInfo = () => {
             </Text>
             <Box p={[12, null, null, 2, 3]} />
 
-           
+           <a href="https://www.bonia.com/collections/tableware" target="_blank" rel="noreferrer">
+              <Button
+                variant="primary"
+                bg="tablewareButton"
+                sx={{ fontSize: ['12px', null, '14px', '16px', '18px', '20px'] }}
+              >
+                <I18n t="giannaBag.preorder" />
+              </Button>
+            </a>
 
             <Box p={[12, null, null, 2, 3]} />
 
-            <Text
-              sx={{
-                maxWidth: ['auto', 388],
-                mx: [24, 0]
-              }}
-              variant="disclaimer"
-              color="white"
-            >
-              <I18n t="takeABite.termsAndConditions" />
-            </Text>
+            
             <Box p={[12, null, null, 2, 3]} />
           </Flex>
 
@@ -259,7 +258,20 @@ const CafeInfo = () => {
               </Text>
 
               <Box p={[2, null, null, 2, 3]} />
-
+              <Button
+                variant="primary"
+                bg="tablewareButton"
+                sx={{
+                  fontSize: ['12px', '16px', '20px', null],
+                  position: 'absolute',
+                  bottom: ['36px', '44px', '48px']
+                }}
+                onClick={() => {
+                  window.open('https://www.bonia.com/collections/tableware')
+                }}
+              >
+                <I18n t="giannaBag.preorder" />
+              </Button>
              
             </Flex>
 
