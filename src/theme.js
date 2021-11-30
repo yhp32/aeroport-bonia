@@ -39,7 +39,8 @@ const theme = {
     text: '#1F1F1F',
     button: '#54527D',
     social: '#A46E8E',
-    socialButton: 'rgb(0,0,0,0.3)'
+    socialButton: 'rgb(0,0,0,0.3)',
+    tablewareButton:'#454942'
   },
   text: {
     default: {
