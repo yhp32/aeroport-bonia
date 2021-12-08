@@ -14,11 +14,7 @@ export default function Model(props) {
   })
 
   return (
-    <group ref={group} {...props} dispose={null}>
-      <mesh geometry={nodes.Hedra002.geometry}>
-        <meshStandardMaterial color="white" />
-      </mesh>
-    </group>
+  
   )
 }
 
