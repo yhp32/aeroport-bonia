@@ -5,7 +5,7 @@ import { useFrame } from 'react-three-fiber'
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes } = 
+  const { nodes } = useGLTF('/textures/diamond.gltf')
   const { movement } = props
 
   useFrame(({ clock }) => {
