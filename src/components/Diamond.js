@@ -13,9 +13,6 @@ export default function Model(props) {
     }
   })
 
-  return (
-  
-  )
 }
 
 useGLTF.preload('/diamond_0.gltf')
