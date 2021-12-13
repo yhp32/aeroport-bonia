@@ -32,11 +32,11 @@ const English = {
  
   },
   takeABite: {
-    title: 'Take a bite out of something new!',
-    content: 'For BONIA’s 47th Anniversary, we are celebrating by giving you a ',
-    content2: '20% OFF promo code',
+    title: 'New Luxe For Your Table',
+    content: "Redefine your dining experience with BONIA's Fine China collection.Complete your table with our designer dinnerware, or add a personal touch by mixing or matching our all-new plates, cups and more!  ",
+    content2: '',
     content3:
-      'to be used on our new collection of tableware, either in stores or online. \nLeave your details with us below to receive an exclusive promo code in your email.',
+      'Explore the collection today and enjoy free shipping nationwide.',
     preorder: 'Your email address',
     termsAndConditions: '*Terms and conditions apply. Redeemable in stores and online at BONIA.com.'
   },
@@ -51,19 +51,19 @@ const English = {
     title: 'Armeria',
     content:
       'The Armeria bag is the essential everyday bag. Made from durable canvas and printed with the BONIA monogram, this special tote bag from the Autumn/Winter 2021 Collection can transform from a tote to a crossbody, whichever best accommodates your style and need.',
-    preorder: 'Discover more'
+    preorder: 'Shop Now'
   },
   ixoraBag: {
     title: 'Ixora',
     content:
       'Created exclusively for BONIA’s 47th Anniversary, the Ixora bag pays homage to the tiffin containers of yesteryear and today.\nA signature in BONIA’s Autumn/Winter 2021 Collection, this bag offers a modern take on the popular tiffin to create a travel bag to carry your precious trinkets, snacks and essentials.',
-    preorder: 'Discover more'
+    preorder: 'Shop Now'
   },
   giannaBag: {
     title: 'Gianna',
     content:
       'A bold new addition to BONIA’s series of shoulder bags, the Gianna from our Autumn/Winter 2021 Collection is inspired by shells from travelling through beaches. The Gianna’s sleek curve and minimal design is the perfect everyday bag companion.',
-    preorder: 'Discover more'
+    preorder: 'Shop Now'
   },
   congratulations: {
     title: 'Congratulations!',
